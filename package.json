@@ -1,0 +1,33 @@
+{
+  "name": "sportease",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SportEase – Smart Sports Equipment & Booking Management System",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "server": "node --experimental-sqlite server/index.js",
+    "client": "npx --yes vite",
+    "build": "vite build",
+    "start": "node --experimental-sqlite server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.474.0",
+    "multer": "^1.4.5-lts.1",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.11"
+  }
+}
